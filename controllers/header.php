@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <!-- Tab Title -->
-        <title>Rakan</title>
+        <title>Cars</title>
         <!-- Shortcut Icon -->
         <link rel="shortcut icon" href="images/logoicon.png" />
         <!-- Font Awesome Css -->
@@ -26,74 +26,17 @@
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
         <!-- Styling File -->
         <!-- <link rel="stylesheet" href="css/filoSlider.css" /> -->
-          <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
         <link rel="stylesheet" href="css/main.css" />
-
-
-
-
-            <!-- <style> 
-        
-        /* Text alignment for body */ 
-        /* body { 
-            text-align: center; 
-        }  */
-          
-          
-        /* Styling modal */ 
-        .modal:before { 
-            content: ''; 
-            display: inline-block; 
-            height: 100%; 
-            vertical-align: middle; 
-        } 
-          
-        .modal-dialog { 
-            display: inline-block; 
-            vertical-align: middle; 
-        } 
-          
-        .modal .modal-content { 
-            padding: 50px; 
-            -webkit-animation-name: modal-animation; 
-            -webkit-animation-duration: 0.5s; 
-            animation-name: modal-animation; 
-            animation-duration: 0.5s; 
-        } 
-          
-        @-webkit-keyframes modal-animation { 
-            from { 
-                top: -100px; 
-                opacity: 0; 
-            } 
-            to { 
-                top: 0px; 
-                opacity: 1; 
-            } 
-        } 
-          
-        @keyframes modal-animation { 
-            from { 
-                top: -100px; 
-                opacity: 0; 
-            } 
-            to { 
-                top: 0px; 
-                opacity: 1; 
-            } 
-        } 
-    </style>  -->
 
     </head>
 
 
- <header>
-
-            <!-- navbar -->
+    <header>
+        <!-- navbar -->
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-header">
@@ -106,15 +49,32 @@
                 </div>
                 <div class="row">
                         <div class="collapse navbar-collapse" id="myNavbar">
-                            <div class="col-md-8 ">
-                                <ul class="nav navbar-nav">
-                                    <!-- <li><a href="#" class="main-link">LOGO</a></li> -->
-                                    <li class="active"><a href="jobs.php" class="main-link">الرئيسية</a></li>
-                                    <li><a href="favorites.php" class="main-link">من نحن</a></li>
-                                    <li><a href="owners.php" class="main-link">أصحاب العمل</a></li>
-                                    <li><a href="success-story.php" class="main-link">قصص نجاح</a></li>
-                                    <li><a href="rules.php" class="main-link">أنظمة وقوانين </a></li>
-                                    <li><a href="messages.php" class="main-link">الأسئلة المتكرره</a></li>
+                            <ul class="nav navbar-nav">
+                                <li><a href="#" class="main-link">LOGO</a></li>
+                                <li class="active"><a href="index.php" class="main-link">الرئيسية</a></li>
+                                <li><a href="who-we-are.php" class="main-link">من نحن</a></li>
+                                <li><a href="our-products.php" class="main-link">منتجاتنا</a></li>
+                                <li><a href="offers.php" class="main-link">العروض</a></li>
+                                <li><a href="order-now.php" class="main-link">اطلب الآن </a></li>
+                                <li><a href="contact-us.php" class="main-link">تواصل معنا</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <button type="button" class="opnmo" data-toggle="modal" data-target="#myModal">تسجيل</button>
+
+                        <ul class="inline-block ">
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle " type="button" data-toggle="dropdown">  
+                                <span class="caret color-white"></span><span class=" font-regular px-adjust">ar</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="newmemb2">
+                                        ar  </a></li>
+                                    <li><a href="#">
+                                        en   </a></li>
+
                                 </ul>
                             </div>
                             <div class="col-md-2">
@@ -141,15 +101,102 @@
                 </div>
 
             </div>
-        </nav>
-    
-
-
-
-
-    
+        </nav>    
     </header>
 
 
 
+    <div class="modal auth fade" id="myModal" role="dialog" >
+
+        <div class="modal-dialog">
+
+        <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body login">
+                    <!-- login -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="global-form">
+                                <form action="">
+                                    <h3 class="text-center">تسجيل الدخول</h3>
+                                    <input type="email" class="form-control" placeholder="البريد االكترونى">
+                                    <input type="password" class="form-control" placeholder="كلمة المرور">
+                                    <a href="#" class="forget-pass">هل نسيت كلمة السر ؟</a>
+                                    <button type="submit" class="btn " data-dismiss="modal">دخول</button>
+                                </form>
+
+                                <p>ليس لديك حساب ؟ <a data-toggle="modal" href="#signup" class="new-account"> حساب جديد؟</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/image_login.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body signup none" >
+                    <!-- sigup -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="global-form">
+                                <form action="">
+                                    <h3 class="text-center">تسجيل جديد</h3>
+                                    <input type="text" class="form-control" placeholder="الاسم">
+                                    <input type="email" class="form-control" placeholder="البريد االكترونى">
+                                    <input type="password" class="form-control" placeholder="كلمة المرور">
+                                    <button type="submit" data-dismiss="modal">تسجيل</button>
+                                </form>
+
+                                <p> لديك حساب ؟ <a data-toggle="modal" class="login-btn"> تسجيل دخول</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/image_login.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body forgetpass none" >
+                    <!-- forgetpass -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="global-form">
+                                <form action="">
+                                    <h3 class="text-center">استعادة كلمة المرور</h3>
+                                    <p>من فضلك ادخل البريد الإلكترونى</p>
+                                    <input type="email" class="form-control" placeholder="البريد الإلكترونى">
+                                    <button type="button" data-toggle="modal" class="order-now" >أطلب الآن</button>
+                                </form>
+
+                                <p> هل تذكرت كلمة المرور ؟ <a data-toggle="modal" class="login-btn2"> تسجيل دخول</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/image_forget_password.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body passcode none" >
+                    <!-- code -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="global-form">
+                                <form action="">
+                                    <h3 class="text-center">تغيير الكود</h3>
+                                    <p>  من فضلك ادخل الكود المرسل على البريد الإلكترونى لتغيير كلمة المرور</p>
+                                    <input type="text" class="form-control" placeholder="أدخل الكود">
+                                    <button type="submit" class="btn " data-dismiss="modal">ارسال</button>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/image_send_cod.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <body>
+
+        

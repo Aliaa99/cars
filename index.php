@@ -202,32 +202,32 @@
             <div class="owl-carousel owl-theme ">
                 <div class="item">
                     <?php
-                        include 'controllers/success-card.php';
+                        include 'controllers/product-card.php';
                     ?>
                 </div>
                 <div class="item">
                     <?php
-                        include 'controllers/success-card.php';
+                        include 'controllers/product-card.php';
                     ?>
                 </div>
                 <div class="item">
                     <?php
-                        include 'controllers/success-card.php';
+                        include 'controllers/product-card.php';
                     ?>
                 </div>
                 <div class="item">
                     <?php
-                        include 'controllers/success-card.php';
+                        include 'controllers/product-card.php';
                     ?>
                 </div>
                 <div class="item">
                     <?php
-                        include 'controllers/success-card.php';
+                        include 'controllers/product-card.php';
                     ?>
                 </div>
                 <div class="item">
                     <?php
-                        include 'controllers/success-card.php';
+                        include 'controllers/product-card.php';
                     ?>
                 </div>
             </div>
