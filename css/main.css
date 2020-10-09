@@ -1235,10 +1235,10 @@ input[type=checkbox]:checked:before {
 .auth form::after {
   content: "";
   position: absolute;
-  border: 1px solid rebeccapurple;
-  height: 2px;
-  width: 30%;
-  left: 35%;
+  border: 1px solid #ddd;
+  height: 1px;
+  width: 50%;
+  left: 25%;
   bottom: 0;
 }
 .auth .global-form {
@@ -1255,13 +1255,13 @@ input[type=checkbox]:checked:before {
 }
 .auth .global-form button {
   width: 100%;
-  background-color: blue;
+  background-color: #2d93ff;
   color: #fff;
   padding: 10px;
   display: block;
 }
 .auth .global-form a {
-  color: blue;
+  color: #2d93ff;
 }
 .auth a.forget-pass {
   float: left;
@@ -1427,7 +1427,6 @@ input[type=checkbox]:checked:before {
   padding: 10px 10px;
   border-radius: 10px;
   position: relative;
-  overflow: hidden;
 }
 .card__success img {
   width: 90px;
@@ -1442,10 +1441,8 @@ input[type=checkbox]:checked:before {
 }
 .card__success h4 {
   font-weight: bold;
-  margin-bottom: 20px;
 }
 .card__success p {
-  color: #ddd;
   margin-bottom: 10px;
 }
 .card__success section {
