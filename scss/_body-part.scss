@@ -350,7 +350,7 @@ body{
     margin-bottom: 20px;
 }
 .none {
-    display: none;
+    display: none !important;
 }
 .validation-color{
     color: $forthcolor;

@@ -31,6 +31,7 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
         <link rel="stylesheet" href="css/main.css" />
+
     </head>
 
 
@@ -87,4 +88,97 @@
 
 
 
+    <div class="modal auth fade" id="myModal" role="dialog" >
+
+        <div class="modal-dialog">
+
+        <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body login">
+                    <!-- login -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="global-form">
+                                <form action="">
+                                    <h3 class="text-center">تسجيل الدخول</h3>
+                                    <input type="email" class="form-control" placeholder="البريد االكترونى">
+                                    <input type="password" class="form-control" placeholder="كلمة المرور">
+                                    <a href="#" class="forget-pass">هل نسيت كلمة السر ؟</a>
+                                    <button type="submit" class="btn " data-dismiss="modal">دخول</button>
+                                </form>
+
+                                <p>ليس لديك حساب ؟ <a data-toggle="modal" href="#signup" class="new-account"> حساب جديد؟</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/image_login.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body signup none" >
+                    <!-- sigup -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="global-form">
+                                <form action="">
+                                    <h3 class="text-center">تسجيل جديد</h3>
+                                    <input type="text" class="form-control" placeholder="الاسم">
+                                    <input type="email" class="form-control" placeholder="البريد االكترونى">
+                                    <input type="password" class="form-control" placeholder="كلمة المرور">
+                                    <button type="submit" data-dismiss="modal">تسجيل</button>
+                                </form>
+
+                                <p> لديك حساب ؟ <a data-toggle="modal" class="login-btn"> تسجيل دخول</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/image_login.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body forgetpass none" >
+                    <!-- forgetpass -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="global-form">
+                                <form action="">
+                                    <h3 class="text-center">استعادة كلمة المرور</h3>
+                                    <p>من فضلك ادخل البريد الإلكترونى</p>
+                                    <input type="email" class="form-control" placeholder="البريد الإلكترونى">
+                                    <button type="button" data-toggle="modal" class="order-now" >أطلب الآن</button>
+                                </form>
+
+                                <p> هل تذكرت كلمة المرور ؟ <a data-toggle="modal" class="login-btn2"> تسجيل دخول</a></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/image_forget_password.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body passcode none" >
+                    <!-- code -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="global-form">
+                                <form action="">
+                                    <h3 class="text-center">تغيير الكود</h3>
+                                    <p>  من فضلك ادخل الكود المرسل على البريد الإلكترونى لتغيير كلمة المرور</p>
+                                    <input type="text" class="form-control" placeholder="أدخل الكود">
+                                    <button type="submit" class="btn " data-dismiss="modal">ارسال</button>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/image_send_cod.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <body>
+
+        

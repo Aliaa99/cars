@@ -898,7 +898,7 @@ body .idea article .line-style::after {
 }
 
 .none {
-  display: none;
+  display: none !important;
 }
 
 .validation-color {
