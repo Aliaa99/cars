@@ -59,10 +59,29 @@ $(function() {
     
     });
 
-    $('.changeform').click(function () {
-        $('.deletform ,.showform').toggleClass('none');
+    $('.new-account').click(function () {
+        $('.signup,.login').toggleClass('none');
 
     });
+    $('.login-btn').click(function () {
+        $('.signup,.login ').toggleClass('none');
+
+    });
+    $('.forget-pass').click(function () {
+        $('.login ,.forgetpass').toggleClass('none');
+
+    });
+
+    $('.login-btn2').click(function () {
+        $('.forgetpass,.login ').toggleClass('none');
+
+    });
+    $('.order-now').click(function () {
+        $('.forgetpass,.passcode ').toggleClass('none');
+
+    });
+
+
 
     $('.span-style').hover(function () {
         $(this).children().children().toggleClass('remove');

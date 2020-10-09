@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="col-md-2">
-                        <button>تسجيل</button>
+                        <button type="button" class="opnmo" data-toggle="modal" data-target="#myModal">تسجيل</button>
 
                         <ul class="inline-block ">
                             <div class="dropdown">
@@ -83,7 +83,16 @@
 
             </div>
         </nav>
+<<<<<<< HEAD
 
+=======
+    
+
+
+
+
+    
+>>>>>>> 2152810dde0ea41c15129080297d701d6810f424
     </header>
 
 
