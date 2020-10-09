@@ -717,17 +717,17 @@ input[type="checkbox"]:checked:before {
     span{
         color: #3473ba;
     }
-    .border-head{
-        position: relative;
-        padding: 10px 0px;
-        &::after{
-            content: "";
-            position: absolute;
-            width: 80px;
-            bottom: 0;
-            border: 2px solid rebeccapurple;
-            right: 45%;
-        }
+}
+.border-head{
+    position: relative;
+    padding: 10px 0px;
+    &::after{
+        content: "";
+        position: absolute;
+        width: 80px;
+        bottom: -10px;
+        border: 2px solid $stColor;
+        right: 45%;
     }
 }
 .partenars {

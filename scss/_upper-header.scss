@@ -57,9 +57,9 @@ header {
         }
     }
 }
-.py-15 {
-    padding-bottom: 4px;
-    padding-top: 12px;
+.py-25 {
+    padding-bottom: 25px !important;
+    padding-top: 25px !important;
 }
 .inline-block{
     display: inline-block;
@@ -233,4 +233,28 @@ header {
 }
 .pt-50{
     padding-top: 50px;
+}
+
+.pages-heading {
+    min-height: 50vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url(../images/image_header.png);
+    background-size: cover;
+    h1, h6 {
+        width: 100%;
+        color: white !important;
+    }
+    h1 {
+        align-self: flex-end;
+    }
+    h6 {
+        align-self: flex-start;
+        a {
+            color: white !important;
+        }
+    }
 }
