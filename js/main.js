@@ -36,9 +36,18 @@ $(function() {
         dots:true,
         margin: 25,
         responsive: {
-            0: {
+            1280: {
                 items: 4
             },
+            1024: {
+                items: 3
+            },
+            768: {
+                items: 2
+            },
+            567: {
+                items: 1
+            }
         }
     });
 

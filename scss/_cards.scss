@@ -4,7 +4,7 @@
     // margin-top: 60px;
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
+    // overflow: hidden;
     &__success {
         img {
             width: 90px;
@@ -22,11 +22,9 @@
 
         h4 {
             font-weight: bold;
-            margin-bottom: 20px;
         }
 
         p {
-            color: #ddd;
             margin-bottom: 10px;
         }
         section{

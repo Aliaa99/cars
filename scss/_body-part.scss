@@ -776,10 +776,10 @@ input[type="checkbox"]:checked:before {
         &::after{
             content: '';
             position: absolute;
-            border: 1px solid rebeccapurple;
-            height: 2px;
-            width: 30%;
-            left: 35%;
+            border: 1px solid #ddd;
+            height: 1px;
+            width: 50%;
+            left: 25%;
             bottom: 0;
         }
     }
@@ -797,14 +797,14 @@ input[type="checkbox"]:checked:before {
 
         button {
             width: 100%;
-            background-color: blue;
+            background-color: $stColor;
             color: #fff;
             padding: 10px;
             display: block;
         }
 
         a {
-            color: blue;
+            color: $stColor;
         }
 
     }

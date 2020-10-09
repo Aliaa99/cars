@@ -35,7 +35,7 @@
                                 <textarea name="" id="" cols="10" rows="3" placeholder="نص الرساله"></textarea>
                             </div>
                             <div class="col-xs-12 mt-20">
-                                <button class="btn btn-default global-btn" type="button">طلب</button>
+                                <button class="btn btn-default global-btn" type="button">ارسال</button>
                             </div>
                         </div>                    
                     </form>
@@ -58,3 +58,16 @@
 <?php
     include 'controllers/footer.php';
 ?>
+
+
+        <!-- Jquery js -->
+        <script src="js/jquery-3.2.1.js"></script>
+        <!-- Bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

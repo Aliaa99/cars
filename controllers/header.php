@@ -122,13 +122,13 @@
                                     <input type="email" class="form-control" placeholder="البريد االكترونى">
                                     <input type="password" class="form-control" placeholder="كلمة المرور">
                                     <a href="#" class="forget-pass">هل نسيت كلمة السر ؟</a>
-                                    <button type="submit" class="btn " data-dismiss="modal">دخول</button>
+                                    <button type="submit" class="btn global-btn" data-dismiss="modal">دخول</button>
                                 </form>
 
-                                <p>ليس لديك حساب ؟ <a data-toggle="modal" href="#signup" class="new-account"> حساب جديد؟</a></p>
+                                <p>ليس لديك حساب ؟ <a data-toggle="modal" href="#signup" class="new-account"> تسجيل جديد</a></p>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 px-0">
                             <img src="images/image_login.png" alt="">
                         </div>
                     </div>
@@ -143,13 +143,13 @@
                                     <input type="text" class="form-control" placeholder="الاسم">
                                     <input type="email" class="form-control" placeholder="البريد االكترونى">
                                     <input type="password" class="form-control" placeholder="كلمة المرور">
-                                    <button type="submit" data-dismiss="modal">تسجيل</button>
+                                    <button type="submit" class="global-btn" data-dismiss="modal">تسجيل</button>
                                 </form>
 
-                                <p> لديك حساب ؟ <a data-toggle="modal" class="login-btn"> تسجيل دخول</a></p>
+                                <p> لديك حساب ؟ <a href="#" data-toggle="modal" class="login-btn"> تسجيل دخول</a></p>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 px-0">
                             <img src="images/image_login.png" alt="">
                         </div>
                     </div>
@@ -161,15 +161,15 @@
                             <div class="global-form">
                                 <form action="">
                                     <h3 class="text-center">استعادة كلمة المرور</h3>
-                                    <p>من فضلك ادخل البريد الإلكترونى</p>
+                                    <p class="color-gray">من فضلك ادخل البريد الإلكترونى الخاص بك وسوف يصلك كود لإنشاء كلمة المرور الجديده</p>
                                     <input type="email" class="form-control" placeholder="البريد الإلكترونى">
-                                    <button type="button" data-toggle="modal" class="order-now" >أطلب الآن</button>
+                                    <button type="button" data-toggle="modal" class="order-now global-btn" >اطلب الآن</button>
                                 </form>
 
-                                <p> هل تذكرت كلمة المرور ؟ <a data-toggle="modal" class="login-btn2"> تسجيل دخول</a></p>
+                                <p> هل تذكرت كلمة المرور ؟ <a href="#" data-toggle="modal" class="login-btn2"> تسجيل دخول</a></p>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 px-0">
                             <img src="images/image_forget_password.png" alt="">
                         </div>
                     </div>
@@ -183,12 +183,12 @@
                                     <h3 class="text-center">تغيير الكود</h3>
                                     <p>  من فضلك ادخل الكود المرسل على البريد الإلكترونى لتغيير كلمة المرور</p>
                                     <input type="text" class="form-control" placeholder="أدخل الكود">
-                                    <button type="submit" class="btn " data-dismiss="modal">ارسال</button>
+                                    <button type="submit" class="btn global-btn" data-dismiss="modal">ارسال</button>
                                 </form>
 
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 px-0">
                             <img src="images/image_send_cod.png" alt="">
                         </div>
                     </div>

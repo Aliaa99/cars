@@ -5,7 +5,7 @@
         </section>
         <div class="card-details">
             <h4>زيت تشحيم</h4>
-            <p> سيتبدل هذا النص سيتبدل </p>
+            <p class="color-gray size-12"> سيتبدل هذا النص سيتبدل </p>
             <strong>200 $</strong>
         </div>
         <button class="global-btn">المزيد</button>
