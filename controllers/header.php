@@ -100,43 +100,44 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="fa fa-bars"></span>                        
                     </button>
-                    <!-- <a class="navbar-brand" href="#">
-                        <img src="images/001.png" alt="">
-                    </a> -->
+                    <a class="navbar-brand" href="#">
+                        <img src="images/TRG.png" alt="" class="img-responsive">
+                    </a>
                 </div>
                 <div class="row">
-                    <div class="col-md-10 ">
                         <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav">
-                                <li><a href="#" class="main-link">LOGO</a></li>
-                                <li class="active"><a href="jobs.php" class="main-link">الرئيسية</a></li>
-                                <li><a href="favorites.php" class="main-link">من نحن</a></li>
-                                <li><a href="owners.php" class="main-link">أصحاب العمل</a></li>
-                                <li><a href="success-story.php" class="main-link">قصص نجاح</a></li>
-                                <li><a href="rules.php" class="main-link">أنظمة وقوانين </a></li>
-                                <li><a href="messages.php" class="main-link">الأسئلة المتكرره</a></li>
-                            </ul>
+                            <div class="col-md-8 ">
+                                <ul class="nav navbar-nav">
+                                    <!-- <li><a href="#" class="main-link">LOGO</a></li> -->
+                                    <li class="active"><a href="jobs.php" class="main-link">الرئيسية</a></li>
+                                    <li><a href="favorites.php" class="main-link">من نحن</a></li>
+                                    <li><a href="owners.php" class="main-link">أصحاب العمل</a></li>
+                                    <li><a href="success-story.php" class="main-link">قصص نجاح</a></li>
+                                    <li><a href="rules.php" class="main-link">أنظمة وقوانين </a></li>
+                                    <li><a href="messages.php" class="main-link">الأسئلة المتكرره</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="opnmo" data-toggle="modal" data-target="#myModal">تسجيل</button>
+
+                                <ul class="inline-block ">
+                                    <div class="dropdown">
+                                        <button class="btn  dropdown-toggle " type="button" data-toggle="dropdown">  
+                                        <span class="caret color-white"></span><span class=" font-regular px-adjust">ar</span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="newmemb2">
+                                            ar  </a></li>
+                                            <li><a href="#">
+                                            en   </a></li>
+
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-md-2">
-                        <button type="button" class="opnmo" data-toggle="modal" data-target="#myModal">تسجيل</button>
-
-                        <ul class="inline-block ">
-                            <div class="dropdown">
-                                <button class="btn  dropdown-toggle " type="button" data-toggle="dropdown">  
-                                <span class="caret color-white"></span><span class=" font-regular px-adjust">ar</span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="newmemb2">
-                                       ar  </a></li>
-                                    <li><a href="#">
-                                      en   </a></li>
-
-                                </ul>
-                            </div>
-                        </ul>
-                    </div>
                 </div>
 
             </div>

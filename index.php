@@ -5,7 +5,7 @@
 
 
   <!-- Modal -->
-  <div class="modal auth fade" id="myModal" role="dialog" >
+<div class="modal auth fade" id="myModal" role="dialog" >
 
     <div class="modal-dialog">
     
