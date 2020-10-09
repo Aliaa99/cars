@@ -395,74 +395,74 @@ input[type="checkbox"]:checked:before {
 
 }
 .global-form{
-    border: 1px solid #eceff1;
-    border-top: 0px;
-    label{
-        color: #898e92;
-        &::after{
-            content: '*';
-            color: red;
-            position: absolute;
-            padding: 3px 10px 3px 5px;
-        }
-    }
-    p{
-        color: #edeff2;
-    }
-    button{
-        width: 100%;
-        padding: 5px 40px;
-        margin: 0px;
-    }
+    // border: 1px solid #eceff1;
+    // border-top: 0px;
+    // label{
+    //     color: #898e92;
+    //     &::after{
+    //         content: '*';
+    //         color: red;
+    //         position: absolute;
+    //         padding: 3px 10px 3px 5px;
+    //     }
+    // }
+    // p{
+    //     color: #edeff2;
+    // }
+    // button{
+    //     width: 100%;
+    //     padding: 5px 40px;
+    //     margin: 0px;
+    // }
 //   select
-    select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        -ms-appearance: none;
-        appearance: none;
-        outline: 0;
-        box-shadow: none;
-        border: 1px solid #f1f3f5 !important;
-        background-image: none;
-    }
+    // select {
+    //     -webkit-appearance: none;
+    //     -moz-appearance: none;
+    //     -ms-appearance: none;
+    //     appearance: none;
+    //     outline: 0;
+    //     box-shadow: none;
+    //     border: 1px solid #f1f3f5 !important;
+    //     background-image: none;
+    // }
 
     /* Remove IE arrow */
-    select::-ms-expand {
-        display: none;
-    }
+    // select::-ms-expand {
+    //     display: none;
+    // }
 
     /* Custom Select */
-    .select {
-        position: relative;
-        display: flex;
-        width: 20em;
-        height: 3em;
-        line-height: 2.5;
-        overflow: hidden;
-        border-radius: .25em;
-    }
+    // .select {
+    //     position: relative;
+    //     display: flex;
+    //     width: 20em;
+    //     height: 3em;
+    //     line-height: 2.5;
+    //     overflow: hidden;
+    //     border-radius: .25em;
+    // }
 
-    select {
-        flex: 1;
-        padding: 0 .5em;
-        color: #ddd;
-        cursor: pointer;
-    }
+    // select {
+    //     flex: 1;
+    //     padding: 0 .5em;
+    //     color: #ddd;
+    //     cursor: pointer;
+    // }
 
     /* Arrow */
-    .select::after {
-        content: '\25BC';
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 0 1em;
-        color: #ddd;
-        cursor: pointer;
-        pointer-events: none;
-        -webkit-transition: .25s all ease;
-        -o-transition: .25s all ease;
-        transition: .25s all ease;
-    }
+    // .select::after {
+    //     content: '\25BC';
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     padding: 0 1em;
+    //     color: #ddd;
+    //     cursor: pointer;
+    //     pointer-events: none;
+    //     -webkit-transition: .25s all ease;
+    //     -o-transition: .25s all ease;
+    //     transition: .25s all ease;
+    // }
 
 }
 .basic-btn{
@@ -764,8 +764,66 @@ input[type="checkbox"]:checked:before {
     }
 }
 
+// auth
+.auth{
+    img{
+        width: 100%;
+    }
+    form{
+        margin-bottom: 40px;
+        padding-bottom: 50px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            border: 1px solid rebeccapurple;
+            height: 2px;
+            width: 30%;
+            left: 35%;
+            bottom: 0;
+        }
+    }
+    .global-form{
+        padding: 50px;
+        h3{
+            margin-bottom: 35px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0px;
+        }
 
+        button {
+            width: 100%;
+            background-color: blue;
+            color: #fff;
+            padding: 10px;
+            display: block;
+        }
 
+        a {
+            color: blue;
+        }
+
+    }
+    a.forget-pass{
+        float: left;
+        font-size: 12px;
+        margin: 20px 0px;
+
+    }
+    p{
+        margin: 20px 0px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+#signup{
+    display:none;
+}
  .mycv{
     background-image: linear-gradient(to left, #c29201, #fabc02);
      .cv-name{
