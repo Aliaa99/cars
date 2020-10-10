@@ -83,3 +83,19 @@
     
 }
 /********* End MAX MEDIA *********/
+.details-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    strong {
+        background-image: linear-gradient(to left, #3295ff, #65b0ff);
+        color: white;
+        padding: 8px;
+        position: absolute;
+        min-width: 50%;
+        border-bottom-left-radius: 50px;
+    }
+}
+.w-100 {
+    width: 100%;
+    padding: 8px 0 !important
+}

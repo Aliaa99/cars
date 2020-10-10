@@ -13,6 +13,31 @@
     </h6>
 </section>
 
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+            
+            </div>
+            <div class="col-md-4">
+                <article>
+                    <h3><strong>طلمبة بنزين</strong></h3>
+                    <p>النص متيغير</p>
+                </article>
+                <hr>
+                <h5 class="color-primary"><strong>السعر : 130 رس</strong></h5>
+                <section class="details-card">
+                    <h6 class="my-0"><strong>التفاصيل</strong></h6>
+                    <p class="color-gray size-12 px-10 py-25 mt-20">تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج تفاصيل المنتج </p>
+                </section>
+                <a href="cart.php">
+                    <button class="global-btn w-100 mt-20">أضف إلى السله</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <div class="opinions">
     <div class="container">
         <h2 class="text-center border-head mb-60">منتجات مشابهه </h2>

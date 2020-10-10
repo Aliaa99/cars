@@ -10,10 +10,13 @@
             <small style="text-decoration: line-through">250 ريال</small style="text-decoration: line-through">
             </p>
             <p class="color-gray size-12">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير </p>
-
-            <a href="product-details.php">
-                <button class="btn btn-default global-btn mt-20" type="button">المزيد</button>
-            </a>
+            <div class="quantity mt-20">
+                <a href="#" class="quantity__minus"><strong>-</strong></a>
+                <input name="quantity" type="text" class="quantity__input" value="1">
+                <a href="#" class="quantity__plus"><strong class="color-primary">+</strong></a>
+                <button class=" global-btn" type="button">حفظ</button>
+                <button class="delete"><i class="icon-delete"></i></button>
+            </div>
         </div>
     </div>
 </div>
