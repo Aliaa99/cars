@@ -3,12 +3,14 @@ $(function() {
 
 
     $('.index-caro').owlCarousel({
+        loop:true,
         rtl: true,
         nav: true,
         margin: 25,
         dots:false,
         navText:["",""],
         autoplay:true,
+        autoplayTimeout:5000,
         responsive: {
             0: {
                 items: 1
@@ -201,6 +203,17 @@ function previewImages() {
         reader.readAsDataURL(file);
 
     }
+    // $(window).scroll(function () {
+    //     var $heightScrolled = $(window).scrollTop();
+    //     var $defaultHeight = 300;
+
+    //     if ($heightScrolled < $defaultHeight) {
+    //         $('#mynav').addClass("back-color")
+    //     } else {
+    //         $('#mynav').removeClass("back-color")
+    //     }
+
+    // });
 
 }
 

@@ -26,77 +26,80 @@
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
         <!-- Styling File -->
         <!-- <link rel="stylesheet" href="css/filoSlider.css" /> -->
+<link href="css/skitter.css" type="text/css" media="all" rel="stylesheet" />
+
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+
+        
         <link rel="stylesheet" href="css/main.css" />
 
+
+<script>
+        window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("mynav").style.backgroundColor = "#4094ee";
+        } else {
+            document.getElementById("mynav").style.backgroundColor = "transparent";
+        }
+    }
+
+</script>
     </head>
 
 
     <header>
         <!-- navbar -->
-        <nav class="navbar">
+        <nav class="navbar" id="mynav">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="fa fa-bars"></span>                        
                     </button>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="images/TRG.png" alt="" class="img-responsive">
                     </a>
                 </div>
                 <div class="row">
                         <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav">
-                                <li><a href="#" class="main-link">LOGO</a></li>
-                                <li class="active"><a href="index.php" class="main-link">الرئيسية</a></li>
-                                <li><a href="who-we-are.php" class="main-link">من نحن</a></li>
-                                <li><a href="our-products.php" class="main-link">منتجاتنا</a></li>
-                                <li><a href="offers.php" class="main-link">العروض</a></li>
-                                <li><a href="order-now.php" class="main-link">اطلب الآن </a></li>
-                                <li><a href="contact-us.php" class="main-link">تواصل معنا</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2">
-                        <button type="button" class="opnmo" data-toggle="modal" data-target="#myModal">تسجيل</button>
-
-                        <ul class="inline-block ">
-                            <div class="dropdown">
-                                <button class="btn  dropdown-toggle " type="button" data-toggle="dropdown">  
-                                <span class="caret color-white"></span><span class=" font-regular px-adjust">ar</span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="newmemb2">
-                                        ar  </a></li>
-                                    <li><a href="#">
-                                        en   </a></li>
-
+                            <div class="col-md-9 col-sm-10">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="index.php" class="main-link">الرئيسية</a></li>
+                                    <li><a href="who-we-are.php" class="main-link">من نحن</a></li>
+                                    <li><a href="our-products.php" class="main-link">منتجاتنا</a></li>
+                                    <li><a href="offers.php" class="main-link">العروض</a></li>
+                                    <li><a href="order-now.php" class="main-link">اطلب الآن </a></li>
+                                    <li><a href="contact-us.php" class="main-link">تواصل معنا</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-sm-1 text-center">
                                 <button type="button" class="opnmo" data-toggle="modal" data-target="#myModal">تسجيل</button>
 
                                 <ul class="inline-block ">
                                     <div class="dropdown">
-                                        <button class="btn  dropdown-toggle " type="button" data-toggle="dropdown">  
-                                        <span class="caret color-white"></span><span class=" font-regular px-adjust">ar</span>
+                                        <button class="btn  dropdown-toggle new-lang" type="button" data-toggle="dropdown">  
+                                        <span class="caret color-white"></span><span class=" font-regular px-adjust">AR</span>
                                         </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#" class="newmemb2">
-                                            ar  </a></li>
-                                            <li><a href="#">
-                                            en   </a></li>
-
+                                        <ul class="dropdown-menu lang-menu">
+                                            <li>
+                                                <a href="#" class="newmemb2"> ar  </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> en   </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                </div>
+
+                </div>
+                </div>
 
                 </div>
 

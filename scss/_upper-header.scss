@@ -10,7 +10,6 @@ header {
         .container {
             .navbar-header {
                 a.navbar-brand {
-                    height: 120px;
                     padding: .25em;
                 }
 
@@ -23,7 +22,8 @@ header {
             ul.navbar-nav {
                 li.active {
                     a {
-                        color: $secColor;
+                        color: #348eeb;
+
                     }
                 }
                 li {
@@ -33,7 +33,7 @@ header {
                     a {
                         font-family: $baseFont;
                         &:hover {
-                            color: $secColor;
+                            color: #348eeb;
                         }
                     }
                     
@@ -171,8 +171,8 @@ header {
             // /* Opera < 12.1 */
             // animation: fadein 5s;
             animation-iteration-count: infinite;
-            animation-duration: 3.5s;
-            animation-delay: .5s;
+            animation-duration: 5000ms;
+            // animation-delay: .5s;
     }
 
 
@@ -182,13 +182,14 @@ header {
         padding: 40px 20px;
 
         animation-iteration-count: infinite;
-        animation-duration: 3.5s;
-        animation-delay: .5s;
+        animation-duration: 5000ms;
+        animation-delay: 100ms;
+        animation-fill-mode: forwards;
     }
     img{
-        animation-iteration-count: infinite;
-        animation-duration: 3.5s;
-        animation-delay: .5s;
+        // animation-iteration-count: infinite;
+        // animation-duration: 4000ms;
+        // animation-delay: .s;
     }
 
     a {
@@ -214,12 +215,16 @@ header {
 }
 
     .newmemb2 {
-        background-color: $secColor;
+        background-color:#4094ee;
         color: white !important;
         margin: $size-12;
         font-size: 14px;
         text-decoration: none;
         border: 0;
+        &:hover{
+            color: #fff !important;
+            background-color:#4094ee !important;
+        }
     }
 
 
@@ -262,4 +267,24 @@ header {
             color: white !important;
         }
     }
+}
+.back-color{
+    background-color: red;
+}
+.lang-menu{
+    right: auto;
+    left: 0px;
+}
+.opnmo {
+        background-color: #fff;
+        color: #338deb;
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-top: 15px 10px;
+        border-radius: 3px;
+}
+.new-lang{
+        border: 1px solid #fff;
+        padding: 2px 7px;
+        color: #fff;
 }

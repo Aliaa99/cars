@@ -3,99 +3,37 @@
 ?>
 
 
+<div class="skitter skitter-large with-dots">
+  <ul>
+    <li>
+      <a href="#cut">
+        <img src="https://visualhunt.com/photos/l/1/dawn-sun-mountain-landscape.jpg" class="cut" />
+      </a>
+      <div class="label_text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <a href="#see-more" class="btn btn-xs btn-warning">See more</a>
+        </p>
+      </div>
+    </li>
+    <li>
+      <a href="#swapBlocks">
+        <img src="https://visualhunt.com/photos/l/1/aurora-borealis-over-mountains-at-night.jpg" class="swapBlocks" />
+      </a>
+      <div class="label_text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <a href="#see-more" class="btn btn-xs btn-warning">See more</a>
+        </p>
+      </div>
+    </li>
+    
+  </ul>
+</div>
+
+
 
   <!-- Modal -->
-<div class="modal auth fade" id="myModal" role="dialog" >
-
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-body login">
-                <!-- login -->
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="global-form">
-                            <form action="">
-                                <h3 class="text-center">تسجيل الدخول</h3>
-                                <input type="email" class="form-control" placeholder="البريد االكترونى">
-                                <input type="password" class="form-control" placeholder="كلمة المرور">
-                                <a href="#" class="forget-pass">هل نسيت كلمة السر ؟</a>
-                                <button type="submit" class="btn " data-dismiss="modal">دخول</button>
-                            </form>
-
-                            <p>ليس لديك حساب ؟ <a data-toggle="modal" href="#signup" class="new-account"> حساب جديد؟</a></p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="images/image_login.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body signup none" >
-                <!-- sigup -->
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="global-form">
-                            <form action="">
-                                <h3 class="text-center">تسجيل جديد</h3>
-                                <input type="text" class="form-control" placeholder="الاسم">
-                                <input type="email" class="form-control" placeholder="البريد االكترونى">
-                                <input type="password" class="form-control" placeholder="كلمة المرور">
-                                <button type="submit" data-dismiss="modal">تسجيل</button>
-                            </form>
-
-                            <p> لديك حساب ؟ <a data-toggle="modal" class="login-btn"> تسجيل دخول</a></p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="images/image_login.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body forgetpass none" >
-                <!-- forgetpass -->
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="global-form">
-                            <form action="">
-                                <h3 class="text-center">استعادة كلمة المرور</h3>
-                                <p>من فضلك ادخل البريد الإلكترونى</p>
-                                <input type="email" class="form-control" placeholder="البريد الإلكترونى">
-                                <button type="button" data-toggle="modal" class="order-now" >أطلب الآن</button>
-                            </form>
-
-                            <p> هل تذكرت كلمة المرور ؟ <a data-toggle="modal" class="login-btn2"> تسجيل دخول</a></p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="images/image_forget_password.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body passcode none" >
-                <!-- code -->
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="global-form">
-                            <form action="">
-                                <h3 class="text-center">تغيير الكود</h3>
-                                <p>  من فضلك ادخل الكود المرسل على البريد الإلكترونى لتغيير كلمة المرور</p>
-                                <input type="text" class="form-control" placeholder="أدخل الكود">
-                                <button type="submit" class="btn " data-dismiss="modal">ارسال</button>
-                            </form>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="images/image_send_cod.png" alt="">
-                    </div>
-                </div>
-            </div>
-   
-        </div>
-    </div>
-  </div>
   
 
 
@@ -111,35 +49,24 @@
                     <div class="item">
                         <div class="col-sm-6">
                             <div class="pt-50 " >
-                                <h2 class="animate__animated animate__backInDown">أبحق عن أفضل  منتج وسعر أقل</h2>
-                                <p class="animate__animated animate__backInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
+                                <h2 class="animate__animated animate__tada">أبحق عن أفضل  منتج وسعر أقل</h2>
+                                <p class="animate__animated animate__bounceInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <img src="images/red_car.png" alt="" class="animate__animated animate__zoomIn">
+                            <img src="images/red_car.png" alt="" class="animate__animated animate__fadeInDownBig">
                         </div>
                     </div>
                     
                     <div class="item" >
                         <div class="col-sm-6">
                             <div class="pt-50 " >
-                                <h2 class="animate__animated animate__backInDown">أبحق عن أفضل  منتج وسعر أقل</h2>
-                                <p class="animate__animated animate__backInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
+                                <h2 class="animate__animated animate__tada">أبحق عن أفضل  </h2>
+                                <p class="animate__animated animate__bounceInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <img src="images/blue_car.png" alt="" class="animate__animated animate__zoomIn">
-                        </div>
-                    </div>
-                    <div class="item" >
-                        <div class="col-sm-6">
-                            <div class="pt-50 " >
-                                <h2 class="animate__animated animate__backInDown">أبحق عن أفضل  منتج وسعر أقل</h2>
-                                <p class="animate__animated animate__backInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="images/blue_car.png" alt="" class="animate__animated animate__zoomIn">
+                            <img src="images/blue_car.png" alt="" class="animate__animated animate__fadeInDownBig">
                         </div>
                     </div>
                 </div>
@@ -312,6 +239,31 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="js/slick.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
+        <!-- <script src="js/filoSlider.js"></script> -->
+                
+        <!-- <script src="js/slidr.js"></script> -->
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.skitter.min.js"></script>
+
         <script src="js/main.js"></script>
+
+        <!-- <script>
+
+            $('#slider').filoSlider({
+            'slicesHorizontal' : 8,
+            'slicesVertical' : 8,
+            'timeout' : 2000,
+            'fadeTimeout' : 5,
+            'fadeTime' : 700,
+            'navigation' :true
+            });
+        </script> -->
+<script>
+$('.skitter-large').skitter({
+    navigation: true,
+    dots: false
+});
+
+</script>
     </body>
 </html>

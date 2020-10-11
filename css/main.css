@@ -357,7 +357,6 @@ header nav {
   margin-bottom: 0 !important;
 }
 header nav .container .navbar-header a.navbar-brand {
-  height: 120px;
   padding: 0.25em;
 }
 header nav .container .navbar-header span.fa-bars {
@@ -365,7 +364,7 @@ header nav .container .navbar-header span.fa-bars {
   font-size: 2em;
 }
 header nav .container ul.navbar-nav li.active a {
-  color: #826636;
+  color: #348eeb;
 }
 header nav .container ul.navbar-nav li a.main-link {
   color: black;
@@ -374,7 +373,7 @@ header nav .container ul.navbar-nav li a {
   font-family: "Tajawal Rg";
 }
 header nav .container ul.navbar-nav li a:hover {
-  color: #826636;
+  color: #348eeb;
 }
 header nav .container ul.navbar-left li a {
   background-color: #826636;
@@ -484,20 +483,15 @@ header nav .container ul.navbar-left li a:hover {
   margin-bottom: 30px;
   margin-top: 11%;
   animation-iteration-count: infinite;
-  animation-duration: 3.5s;
-  animation-delay: 0.5s;
+  animation-duration: 5000ms;
 }
 .tele-academy-paging p {
   font-size: 12px;
   padding: 40px 20px;
   animation-iteration-count: infinite;
-  animation-duration: 3.5s;
-  animation-delay: 0.5s;
-}
-.tele-academy-paging img {
-  animation-iteration-count: infinite;
-  animation-duration: 3.5s;
-  animation-delay: 0.5s;
+  animation-duration: 5000ms;
+  animation-delay: 100ms;
+  animation-fill-mode: forwards;
 }
 .tele-academy-paging a {
   color: white;
@@ -520,12 +514,16 @@ header nav .container ul.navbar-left li a:hover {
 }
 
 .newmemb2 {
-  background-color: #826636;
+  background-color: #4094ee;
   color: white !important;
   margin: 12px;
   font-size: 14px;
   text-decoration: none;
   border: 0;
+}
+.newmemb2:hover {
+  color: #fff !important;
+  background-color: #4094ee !important;
 }
 
 .px-5 {
@@ -569,6 +567,30 @@ header nav .container ul.navbar-left li a:hover {
 }
 .pages-heading h6 a {
   color: white !important;
+}
+
+.back-color {
+  background-color: red;
+}
+
+.lang-menu {
+  right: auto;
+  left: 0px;
+}
+
+.opnmo {
+  background-color: #fff;
+  color: #338deb;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-top: 15px 10px;
+  border-radius: 3px;
+}
+
+.new-lang {
+  border: 1px solid #fff;
+  padding: 2px 7px;
+  color: #fff;
 }
 
 /*** End Upper-Header ***/
