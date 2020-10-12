@@ -288,7 +288,37 @@ textarea {
     border-radius: 4px;
 }
 
+.offers {
+    .item {
+        margin: 15px;
+    }
+}
+.back-ilustration {
+    background: url(../images/bg_footer.png);
+    background-size: cover;
+    .offers {
+        @media (min-width: 769px) {
+            min-height: 100vh;
+        }
+    }
+}
+.owl-dot {
+    span {
+        background-color: #3c9aff !important;
+        opacity: .5 !important;
+    }
+}
+.owl-dot.active {
+    span {
+        background-color: #3c9aff !important;
+        width: 25px !important;
+        opacity: 1 !important;
+    }
+}
 
+.bg-white {
+    background: white !important;
+}
 .quantity {
     display: flex;
     align-items: center;

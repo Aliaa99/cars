@@ -350,7 +350,7 @@ header {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 9;
+  z-index: 101;
 }
 header nav {
   border-radius: 0px !important;
@@ -364,7 +364,7 @@ header nav .container .navbar-header span.fa-bars {
   font-size: 2em;
 }
 header nav .container ul.navbar-nav li.active a {
-  color: #348eeb;
+  opacity: 0.5;
 }
 header nav .container ul.navbar-nav li a.main-link {
   color: black;
@@ -373,7 +373,7 @@ header nav .container ul.navbar-nav li a {
   font-family: "Tajawal Rg";
 }
 header nav .container ul.navbar-nav li a:hover {
-  color: #348eeb;
+  opacity: 0.5;
 }
 header nav .container ul.navbar-left li a {
   background-color: #826636;
@@ -432,11 +432,18 @@ header nav .container ul.navbar-left li a:hover {
   background: url(../images/bg_header2.png);
   background-size: cover;
   height: 100vh;
+  background-color: #f1f7fe;
+}
+@media (min-width: 1024px) {
+  .tele-academy-paging {
+    display: flex;
+    align-items: center;
+  }
 }
 .tele-academy-paging .owl-nav {
   position: absolute;
-  bottom: 30%;
-  right: 22%;
+  bottom: 0;
+  right: 5%;
 }
 .tele-academy-paging .owl-nav .owl-prev {
   position: relative;
@@ -446,14 +453,14 @@ header nav .container ul.navbar-left li a:hover {
 }
 .tele-academy-paging .owl-nav .owl-prev::after {
   position: absolute;
-  content: "";
+  content: "";
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   color: gray;
   opacity: 1;
-  font-family: FontAwesome;
+  font-family: fontello;
 }
 .tele-academy-paging .owl-nav .owl-prev:hover {
   background-color: transparent;
@@ -466,14 +473,15 @@ header nav .container ul.navbar-left li a:hover {
 }
 .tele-academy-paging .owl-nav .owl-next::after {
   position: absolute;
-  content: "";
+  content: "";
   left: 0;
   right: 0;
-  top: 0;
+  top: 20px;
   bottom: 0;
-  color: black;
+  color: gray;
   opacity: 1;
-  font-family: FontAwesome;
+  font-family: fontello;
+  transform: rotate(180deg);
 }
 .tele-academy-paging .owl-nav .owl-next:hover {
   background-color: transparent;
@@ -588,9 +596,8 @@ header nav .container ul.navbar-left li a:hover {
 }
 
 .new-lang {
-  border: 1px solid #fff;
+  border: 1px solid #f1f7fe;
   padding: 2px 7px;
-  color: #fff;
 }
 
 /*** End Upper-Header ***/
@@ -1149,7 +1156,6 @@ input[type=checkbox]:checked:before {
 }
 
 .opinions {
-  margin-top: 100px;
   margin-bottom: 150px;
 }
 .opinions img {
@@ -1226,7 +1232,7 @@ input[type=checkbox]:checked:before {
 }
 
 .for-job .network {
-  margin-top: -40px;
+  margin-top: -55px;
   margin-left: 15%;
   margin-right: 15%;
   box-shadow: 0px 4px 8px 1px gainsboro;
@@ -1242,15 +1248,15 @@ input[type=checkbox]:checked:before {
 }
 
 .better-world {
-  padding: 50px;
+  min-height: calc(100vh - 52px);
+  display: flex;
+  align-items: center;
 }
 .better-world img {
   width: 100%;
 }
 .better-world p {
-  text-align: right;
   color: gray;
-  padding: 20px;
 }
 
 .auth img {
@@ -1447,6 +1453,45 @@ input[type=checkbox]:checked:before {
 }
 .cv-details section a {
   color: blue;
+}
+
+.payment {
+  /* HIDE RADIO */
+  /* IMAGE STYLES */
+  /* CHECKED STYLES */
+}
+.payment [type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.payment [type=radio] + img {
+  cursor: pointer;
+}
+.payment [type=radio]:checked + img {
+  outline: 2px solid #2d93ff;
+  opacity: 0.5;
+  border: 3px solid #2d93ff;
+}
+.payment [type=radio]:checked + img img {
+  position: relative;
+}
+.payment [type=radio]:checked + img img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: "fontello";
+}
+.payment label {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.payment img {
+  padding: 10px;
+  filter: opacity(0.7);
+  background-color: #f0f7fe !important;
 }
 
 /*** End _body-part. ***/
@@ -1792,6 +1837,35 @@ textarea {
   border-radius: 4px;
 }
 
+.offers .item {
+  margin: 15px;
+}
+
+.back-ilustration {
+  background: url(../images/bg_footer.png);
+  background-size: cover;
+}
+@media (min-width: 769px) {
+  .back-ilustration .offers {
+    min-height: 100vh;
+  }
+}
+
+.owl-dot span {
+  background-color: #3c9aff !important;
+  opacity: 0.5 !important;
+}
+
+.owl-dot.active span {
+  background-color: #3c9aff !important;
+  width: 25px !important;
+  opacity: 1 !important;
+}
+
+.bg-white {
+  background: white !important;
+}
+
 .quantity {
   display: flex;
   align-items: center;
@@ -2026,6 +2100,20 @@ textarea {
 
 select.form-control.borderless {
   border: none !important;
+}
+
+.image_main {
+  background-color: white !important;
+  margin-bottom: 1rem !important;
+}
+
+.container_thumbs {
+  margin-top: 1rem !important;
+  width: 100% !important;
+}
+
+.info_slide.info_slide_thumb {
+  background-color: white !important;
 }
 
 /*# sourceMappingURL=main.css.map */

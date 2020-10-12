@@ -2,11 +2,13 @@ header {
         position: fixed;
         left: 0;
         right: 0;
-        z-index: 9;
+        z-index: 101;
     nav {
         border-radius: 0px !important;
         margin-bottom: 0 !important;
-
+        // @media(min-width: 769px) {
+        //     background-color: $stColor;
+        // }
         .container {
             .navbar-header {
                 a.navbar-brand {
@@ -22,7 +24,7 @@ header {
             ul.navbar-nav {
                 li.active {
                     a {
-                        color: #348eeb;
+                        opacity: .5;
 
                     }
                 }
@@ -33,7 +35,7 @@ header {
                     a {
                         font-family: $baseFont;
                         &:hover {
-                            color: #348eeb;
+                            opacity: .5;
                         }
                     }
                     
@@ -82,6 +84,7 @@ header {
 }
 // home style
 .index-caro{
+
     .owl-dots{
         position: absolute;
         left: 0;
@@ -103,10 +106,15 @@ header {
     background: url(../images/bg_header2.png);
     background-size: cover;
     height: 100vh;
+    background-color: #f1f7fe;
+    @media(min-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
     .owl-nav {
         position: absolute;
-        bottom: 30%;
-        right: 22%;
+        bottom: 0;
+        right: 5%;
         .owl-prev {
             position: relative;
             width: 20px;
@@ -115,14 +123,14 @@ header {
 
             &::after {
                 position: absolute;
-                content: '\f30a';
+                content: '\e803';
                 left: 0;
                 right: 0;
                 top: 0;
                 bottom: 0;
                 color: gray;
                 opacity: 1;
-                font-family: FontAwesome;
+                font-family: fontello;
             }
 
             &:hover {
@@ -138,14 +146,15 @@ header {
 
             &::after {
                 position: absolute;
-                content: '\f30b';
+                content: '\e803';
                 left: 0;
                 right: 0;
-                top: 0;
+                top: 20px;
                 bottom: 0;
-                color: black;
+                color: gray;
                 opacity: 1;
-                font-family: FontAwesome;
+                font-family: fontello;
+                transform: rotate(180deg);
             }
 
             &:hover {
@@ -284,7 +293,7 @@ header {
         border-radius: 3px;
 }
 .new-lang{
-        border: 1px solid #fff;
+        border: 1px solid #f1f7fe;
         padding: 2px 7px;
-        color: #fff;
+        // color: #fff;
 }

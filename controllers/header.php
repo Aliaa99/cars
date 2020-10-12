@@ -42,7 +42,7 @@
 
     function scrollFunction() {
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            document.getElementById("mynav").style.backgroundColor = "#4094ee";
+            document.getElementById("mynav").style.backgroundColor = "#f1f7fe";
         } else {
             document.getElementById("mynav").style.backgroundColor = "transparent";
         }
@@ -61,7 +61,7 @@
                         <span class="fa fa-bars"></span>                        
                     </button>
                     <a class="navbar-brand" href="index.php">
-                        <img src="images/TRG.png" alt="" class="img-responsive">
+                        <img src="images/logo-2.png" alt="" width="75px" style="margin-top: 5px">
                     </a>
                 </div>
                 <div class="row">
@@ -76,7 +76,7 @@
                                     <li><a href="contact-us.php" class="main-link">تواصل معنا</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-2 col-sm-1 text-center">
+                            <div class="col-md-2 col-sm-1 text-center mt-10">
                                 <button type="button" class="opnmo" data-toggle="modal" data-target="#myModal">تسجيل</button>
 
                                 <ul class="inline-block ">

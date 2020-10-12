@@ -659,7 +659,6 @@ input[type="checkbox"]:checked:before {
 
 // opinions
 .opinions{
-    margin-top: 100px;
     margin-bottom: 150px;
     img{
         width: 90px !important;
@@ -737,7 +736,7 @@ input[type="checkbox"]:checked:before {
 }
  .for-job{
     .network {
-            margin-top: -40px;
+            margin-top: -55px;
             margin-left: 15%;
             margin-right: 15%;
             box-shadow: 0px 4px 8px 1px gainsboro;
@@ -753,14 +752,14 @@ input[type="checkbox"]:checked:before {
     }
  }
 .better-world{
-    padding: 50px;
+    min-height: calc(100vh - 52px);
+    display: flex;
+    align-items: center;
     img{
         width:100%
     }
     p{
-        text-align: right;
         color: gray;
-        padding: 20px;
     }
 }
 
@@ -977,3 +976,45 @@ input[type="checkbox"]:checked:before {
     }
 }
 
+.payment {
+    /* HIDE RADIO */
+    [type=radio] { 
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+  
+  /* IMAGE STYLES */
+    [type=radio] + img {
+        cursor: pointer;
+    }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 2px solid $stColor;
+    opacity: .5;
+    border: 3px solid $stColor;
+    img {
+        position: relative;
+        &::before {
+            content: '\e802';
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-family: "fontello";
+        }
+    }
+  }
+  label {
+    border-radius: 4px;
+    overflow: hidden;
+    // border: 1px solid $stColor;
+  }
+  img {
+      padding: 10px;
+      filter: opacity(0.7);
+      background-color: #f0f7fe !important;
+      
+  }
+}

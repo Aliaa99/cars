@@ -8,6 +8,6 @@
         <strong>200 $</strong>
     </div>
     <a href="product-details.php">
-        <button class="global-btn">المزيد</button>
+        <button class="btn btn-default global-btn mt-20">المزيد</button>
     </a>
 </div>

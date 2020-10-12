@@ -46,15 +46,30 @@
                 </div>
             </div>
         </section>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-xs-12">
                 <hr>
+            </div>
+        </div> -->
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row payment">
+            <div class="col-sm-6 mx-auto text-center">
+                <label>
+                    <input type="radio" name="test" value="big">
+                    <img src="images/credit_card.png" width="50px">
+                </label>
+                <label>
+                    <input type="radio" name="test" value="small" checked>
+                    <img src="images/wallet.png"  width="50px">
+                </label>
             </div>
         </div>
     </div>
 </section>
-
-<section>
+<!-- <section>
     <div class="container mb-60">
         <div class="row">
             <form action="" class="">
@@ -77,7 +92,7 @@
             </form>
         </div>
     </div>
-</section>
+</section> -->
 <?php
     include 'controllers/footer.php';
 ?>

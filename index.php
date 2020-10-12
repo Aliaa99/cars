@@ -3,7 +3,7 @@
 ?>
 
 
-<div class="skitter skitter-large with-dots">
+<!-- <div class="skitter skitter-large with-dots">
   <ul>
     <li>
       <a href="#cut">
@@ -29,7 +29,7 @@
     </li>
     
   </ul>
-</div>
+</div> -->
 
 
 
@@ -42,37 +42,41 @@
 
 <div class=" tele-academy-paging">
     <div class="container">
-        <div class="row">
 
-                <div class="owl-carousel owl-theme index-caro">
+        <div class="owl-carousel owl-theme index-caro">
 
-                    <div class="item">
-                        <div class="col-sm-6">
-                            <div class="pt-50 " >
-                                <h2 class="animate__animated animate__tada">أبحق عن أفضل  منتج وسعر أقل</h2>
-                                <p class="animate__animated animate__bounceInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="images/red_car.png" alt="" class="animate__animated animate__fadeInDownBig">
+            <div class="item">
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div class="pt-50 " >
+                            <h2 class="animate__animated animate__tada">ابحث عن أفضل  منتج وسعر أقل</h2>
+                            <p class="animate__animated animate__bounceInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
                         </div>
                     </div>
-                    
-                    <div class="item" >
-                        <div class="col-sm-6">
-                            <div class="pt-50 " >
-                                <h2 class="animate__animated animate__tada">أبحق عن أفضل  </h2>
-                                <p class="animate__animated animate__bounceInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="images/blue_car.png" alt="" class="animate__animated animate__fadeInDownBig">
-                        </div>
+                    <div class="col-sm-6">
+                        <img src="images/red_car.png" alt="" class="animate__animated animate__fadeInDownBig">
                     </div>
                 </div>
+            </div>
+            
+            <div class="item" >
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="pt-50 " >
+                            <h2 class="animate__animated animate__tada">ابحث عن أفضل  </h2>
+                            <p class="animate__animated animate__bounceInUp">هذا النص سيتغير هذا النص سيتغير هذا النص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير هذا انص سيتغير </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/red_car.png" alt="" class="animate__animated animate__fadeInDownBig">
+                    </div>
 
-
+                </div>
+            </div>
         </div>
+
+
     </div>
 </div>
   
@@ -115,7 +119,7 @@
             <div class="col-sm-6">
                 <h2>تأخذك وساطة إلى عالم أفضل وأسهل</h2>
                 <p>هذا النص مثال يتغير هذا النص مثال يتغير هذا النص مثال يتغيرهذا النص مثال يتغيرهذا النص مثال يتغيرهذا النص مثال يتغير</p>
-                <button class="global-btn">تسوق الان</button>
+                <button class="btn btn-default global-btn mt-20">تسوق الان</button>
             </div>
         </div>
     </div>
@@ -125,7 +129,7 @@
  <!-- opinions -->
     <div class="opinions">
         <div class="container">
-            <h2 class="text-center border-head">المنتجات الجديدة </h2>
+            <h2 class="text-center border-head mb-60">المنتجات الجديدة </h2>
             <div class="owl-carousel owl-theme ">
                 <div class="item">
                     <?php
@@ -160,73 +164,43 @@
             </div>
         </div>
     </div>
-
-<!-- contactus -->
-<div class="contact-us p-20">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7 col-sm-5" >
-                <h4>تواصل معنا</h4>
-                <ul>
-                    <li>
-                        <span class="icon-style"><i class="fa fa-map-marker"></i></span>
-                        <div class="contacts">
-                            <span>العنوان</span>
-                            <p>السعودية ،الدمام</p>
-                        </div>
-                    </li>
-                    <li>
-                        <span class="icon-style"><i class="fa fa-mobile"></i></span>
-                        <div class="contacts">
-                            <span>رقم الجوال</span>
-                            <p>2554896454</p>
-                        </div>
-                    </li>
-                    <li>
-                        <span class="icon-style"><i class="fa fa-envelope"></i></span>
-                        <div class="contacts">
-                            <span>البريد الإلكترونى</span>
-                            <p>ahmed@yahoo.com</p>
-                            <p>AaAa@gmail.com</p>
-                            <p>ali@yahoo.com</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-5 col-sm-7">
-                <div class="contact-form">
-                    <form action="">
-                        <h3 class="text-center">تواصل معنا</h3>
-                        <div class="form-group">
-                            <label for="">اسم المستخدم</label>
-                            <input type="text" class="form-control" placeholder="اسم المستخدم">
-                        </div>
-                        <div class="form-group">
-                            <label for="">البريد الإلكترونى </label>
-                            <input type="email" class="form-control" placeholder="البريد الإلكترونى">
-                        </div>
-                        <div class="form-group">
-                            <label for="">رقم الجوال</label>
-                            <input type="number" class="form-control" placeholder="رقم الجوال">
-                        </div>
-                        <div class="form-group">
-                            <label for="">عنوان التواصل</label>
-                            <input type="text" class="form-control" placeholder="عنوان التواصل">
-                        </div>
-                        <div class="form-group">
-                            <label for="">نص التواصل</label>
-                            <textarea name="" id="" cols="10" rows="5" placeholder="نص التواصل"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit">إرسال</button>
-                        </div>
-                    </form>
+    <div class="back-ilustration">
+        <div class="offers">
+            <div class="container">
+                <h2 class="text-center border-head mb-60">العروض المميزه </h2>
+                <div class="owl-carousel owl-theme ">
+                    <div class="item">
+                        <?php
+                            include 'controllers/horizontal-card.php';
+                        ?>
+                    </div>
+                    <div class="item">
+                        <?php
+                            include 'controllers/horizontal-card.php';
+                        ?>
+                    </div>
+                    <div class="item">
+                        <?php
+                            include 'controllers/horizontal-card.php';
+                        ?>
+                    </div>
+                    <div class="item">
+                        <?php
+                            include 'controllers/horizontal-card.php';
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>
+        <?php
+            include 'controllers/postal-post.php';
+        ?>
     </div>
-</div>
 
+
+    <?php
+        include 'controllers/footer.php';
+    ?>
 
 
 
@@ -242,8 +216,8 @@
         <!-- <script src="js/filoSlider.js"></script> -->
                 
         <!-- <script src="js/slidr.js"></script> -->
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.skitter.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.skitter.min.js"></script>
 
         <script src="js/main.js"></script>
 

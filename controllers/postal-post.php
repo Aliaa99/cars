@@ -3,7 +3,7 @@
         <h3 class="text-center border-head"><strong>النشره البريديه</strong> </h3>
         <div class="row">
             <div class="col-sm-12">
-                <div class="card mt-30 mb-60">
+                <div class="card mt-30 mb-60 bg-white">
                     <div class="row">
                         <div class="col-sm-6 mb-20 mt-20">
                             <div class="input-group">

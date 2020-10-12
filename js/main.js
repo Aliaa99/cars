@@ -22,10 +22,10 @@ $(function() {
         })
       });
 
-    $('.index-caro').owlCarousel({
+    $('.tele-academy-paging .owl-carousel').owlCarousel({
         loop:true,
         rtl: true,
-        nav: true,
+        nav: false,
         margin: 25,
         dots:false,
         navText:["",""],
@@ -34,7 +34,7 @@ $(function() {
         responsive: {
             0: {
                 items: 1
-            },
+            }
         }
     });
 
@@ -47,8 +47,20 @@ $(function() {
         autoplay:true,
         responsive: {
             0: {
-                items: 4
+                items: 1
             },
+            567: {
+                items: 1.5
+            },
+            768: {
+                items: 2.5
+            },
+            1024: {
+                items: 3
+            },
+            1280: {
+                items: 4
+            }
         }
     });
    
@@ -58,16 +70,30 @@ $(function() {
         dots:true,
         margin: 25,
         responsive: {
-            1280: {
-                items: 4
+            0: {
+                items: 1
+            },
+            567: {
+                items: 1.5
+            },
+            768: {
+                items: 2.5
             },
             1024: {
                 items: 3
             },
-            768: {
-                items: 2
-            },
-            567: {
+            1280: {
+                items: 4
+            }
+        }
+    });
+    $('.offers .owl-carousel').owlCarousel({
+        rtl: true,
+        nav: false,
+        dots:true,
+        margin: 25,
+        responsive: {
+            0: {
                 items: 1
             }
         }
@@ -77,7 +103,7 @@ $(function() {
         rtl: true,
         nav: false,
         dots: false,
-        margin: 25,
+        margin: 50,
         responsive: {
             0: {
                 items: 4

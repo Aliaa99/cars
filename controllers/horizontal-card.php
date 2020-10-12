@@ -1,4 +1,4 @@
-<div class="card mb-20">
+<div class="card mb-20 bg-white">
     <strong class="card__sale color-primary">خصم 40%</strong>
     <div class="row flexing">
         <div class="col-sm-4 px-0">
