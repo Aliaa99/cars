@@ -66,7 +66,7 @@
                 </div>
                 <div class="row">
                         <div class="collapse navbar-collapse" id="myNavbar">
-                            <div class="col-md-9 col-sm-10">
+                            <div class="col-md-9 col-sm-8">
                                 <ul class="nav navbar-nav">
                                     <li class="active"><a href="index.php" class="main-link">الرئيسية</a></li>
                                     <li><a href="who-we-are.php" class="main-link">من نحن</a></li>
@@ -76,7 +76,7 @@
                                     <li><a href="contact-us.php" class="main-link">تواصل معنا</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-2 col-sm-1 text-center mt-10">
+                            <div class="col-md-2 col-sm-3 text-center mt-10">
                                 <button type="button" class="opnmo" data-toggle="modal" data-target="#myModal">تسجيل</button>
 
                                 <ul class="inline-block ">

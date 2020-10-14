@@ -40,21 +40,49 @@
     header nav .container ul.navbar-left li a {
         padding: 1em 1.25em;
     }
+    nav .container ul.navbar-nav li {
+        padding: 0.5em 0 0.5em 0;
+        text-align: center;
+        a {
+            padding: 10px !important;
+        }
+    }
 }
 @media (max-width:991px) {
     .who-we-are .right-side p {
         margin-bottom: 3em;
     }
 }
-@media (max-width:768px) {
+@media (max-width:769px) {
+    .navbar{
+        img{
+            width: 50px;
+        }
+    }
+    nav .container ul.navbar-nav li {
+        padding: 0.5em 0 0.5em 0;
+        text-align: center;
+        a {
+            padding: 5px 10px !important;
+        }
+
+    }
+    .tele-academy-paging{
+        .owl-carousel{
+            margin-top: 25px;
+        }
+    }
+}
+@media (max-width:767px) {
     header {
         .language-area {
             text-align: center;
         }
-        nav .container ul.navbar-nav li {
-            padding: 0.5em 0 0.5em 0;
-            text-align: center;
-        }
+        
+        
+    }
+    .navbar-collapse{
+        background-color: #f1f7fe;
     }
     .our-services .left-side-design img {
         width: 100%;
@@ -65,6 +93,8 @@
             float: none !important;    
         }
     }
+    
+    
 }
 @media (max-width:414px) {
     .our-services .repeated-column { 
@@ -73,8 +103,13 @@
         }
     }
 }
-@media (max-width:375px) {
-
+@media (max-width:680px) {
+    .navbar{
+        img{
+            width: 100px !important;
+            padding: 10px;
+        }
+    }
 }
 @media (max-width:360px) {
 
