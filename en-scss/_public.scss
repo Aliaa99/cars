@@ -190,6 +190,9 @@ textarea {
 .rtl {
     direction: rtl;
 }
+.owl-carousel.owl-rtl {
+    direction: ltr !important;
+}
 .h-60 {
     height: 65.25vh;
     overflow: overlay;
@@ -311,7 +314,6 @@ textarea {
         opacity: .5 !important;
     }
 }
-
 .owl-dot.active {
     span {
         background-color: #3c9aff !important;

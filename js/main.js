@@ -23,8 +23,9 @@ $(function() {
       });
 
     $('.tele-academy-paging .owl-carousel').owlCarousel({
+        //check rtl here for ar & en
         loop:true,
-        rtl: true,
+        rtl: false,
         nav: false,
         margin: 25,
         dots:false,
@@ -39,7 +40,8 @@ $(function() {
     });
 
     $('.for-job .owl-carousel').owlCarousel({
-        rtl: true,
+        //check rtl here for ar & en
+        rtl: false,
         nav: false,
         dots: false,
         navText: ["", ""],
@@ -65,7 +67,8 @@ $(function() {
     });
    
     $('.opinions .owl-carousel').owlCarousel({
-        rtl: true,
+        //check rtl here for ar & en
+        rtl: false,
         nav: false,
         dots:true,
         margin: 25,
@@ -88,7 +91,8 @@ $(function() {
         }
     });
     $('.offers .owl-carousel').owlCarousel({
-        rtl: true,
+        //check rtl here for ar & en
+        rtl: false,
         nav: false,
         dots:true,
         margin: 25,
@@ -100,7 +104,8 @@ $(function() {
     });
 
     $('.partenars .owl-carousel').owlCarousel({
-        rtl: true,
+        //check rtl here for ar & en
+        rtl: false,
         nav: false,
         dots: false,
         margin: 50,

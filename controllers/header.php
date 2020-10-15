@@ -15,7 +15,9 @@
         <link rel="stylesheet" href="fonts/font/ar/stylesheet.css" />
         <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
 
+        <!-- if arabic add -->
         <link rel="stylesheet" href="css/bootstrap-a.min.css" />
+
         <!-- Owl carousel -->
         <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
         <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
@@ -26,16 +28,17 @@
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
         <!-- Styling File -->
         <!-- <link rel="stylesheet" href="css/filoSlider.css" /> -->
-<link href="css/skitter.css" type="text/css" media="all" rel="stylesheet" />
+        <link href="css/skitter.css" type="text/css" media="all" rel="stylesheet" />
 
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
 
-        
+        <!-- if arabic remove this -->
+        <!-- <link rel="stylesheet" href="en-css/main.css" /> -->
+        <!-- if arabic add this -->
         <link rel="stylesheet" href="css/main.css" />
-
 
 <script>
         window.onscroll = function () { scrollFunction() };
